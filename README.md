@@ -14,7 +14,7 @@ C语言面向对象库
 * 常用工具
 * * 布尔变量的枚举实现 [clingservlib/lib/bool.h](https://github.com/Lingling-LynnChan/clingservlib/blob/main/clingservlib/lib/bool.h)
 * * 互斥锁、读写锁和安全指针的封装 [clingservlib/lib/safe.h](https://github.com/Lingling-LynnChan/clingservlib/blob/main/clingservlib/lib/safe.h)
-* * 内存管理的代理接口 [clingservlib/lib/proxy/alloc.h](https://github.com/Lingling-LynnChan/clingservlib/blob/main/clingservlib/lib/proxy/alloc.h)
+* * 内存管理的代理接口 [clingservlib/lib/proxy/lalloc.h](https://github.com/Lingling-LynnChan/clingservlib/blob/main/clingservlib/lib/proxy/lalloc.h)
 * * 输入输出的代理接口 [clingservlib/lib/proxy/output.h](https://github.com/Lingling-LynnChan/clingservlib/blob/main/clingservlib/lib/proxy/output.h)
 * 特色工具
 * * `SafePtr` : 安全指针，用于包装 `UnsafePtr` 指针，可用于监控内存泄露，防止内存的非法访问与释放
